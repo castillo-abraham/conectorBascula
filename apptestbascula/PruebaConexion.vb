@@ -26,11 +26,11 @@ Public Class PruebaConexion
 
         <SapName("E_MENSAJE")>
         Public Property MENSAJE As String
-
+        i
     End Class
 
     Private Function ConectBasc() As Boolean
-
+        MsgBox("jjjjdddddeeeiiihhhhhhhhhhh")
         Dim lPort As String = txb_Port.Text
         Dim LBaudRate As Integer = Convert.ToInt32(txb_baudRate.Text)
         Dim LDataBits As Integer = Convert.ToInt32(txb_dataBits.Text)
